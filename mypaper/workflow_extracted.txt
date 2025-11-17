@@ -1,0 +1,197 @@
+
+
+============================================================
+PAGE 1
+============================================================
+
+w o r k f l o w
+核⼼课题：
+Disor der -Fil t er ed Quantum Geometr y: Univ ersal Cr osso v er fr om Hidden Ber r y  
+Cur v atur e t o Quantum Metr ic in $\mathc al{PT}$Symmetr ic Antif er r omagnet s
+(⽆序过滤的量⼦⼏何： $\mathc al{PT}$ 对称反铁磁体中从隐藏⻉⾥曲率到量⼦度规
+的普适交叉 )
+基本逻辑：  利⽤  NEGF 全量⼦输运⽅法，证明在  MnBi$_2$T e$_ 4$ 中，隐藏⻉⾥曲
+率  (Hidden BCD)  对磁性⽆序极其敏感（会被迅速杀灭），⽽量⼦度规  (QMD)  具有拓
+扑鲁棒性。这解释了为什么实验看到的是  QMD ，并调和了  Natur e 2023  与  arXiv  
+2025 的⽭盾。
+第⼀阶段：模型构建与基准测试  (Model Construction)
+⽬标：  在  Py thon 中复现  MnBi$_2$T e$_ 4$ 的  6 层板（ 6SL ）电⼦结构。
+1. 原理与公式
+基于你上传的  Supplement ar y Inf or mation SI ， MnBi$ 2$T e$4$ 的有效哈密顿量
+是基于  $|P1{z}^{+},\upar r o w\r angle, |P2 {z}^{-},\up ar r o w\rangle,  
+|P1_{z}^{+},\do wnar r o w\rangle, |P2_{z}^{-},\do wnar r o w\rangle$ 的四带模型  1 。
+紧束缚模型  (Tight -Binding) 离散化规则：
+将  SI 中的  k 空间公式  (S7 2 转换为实空间格点跳跃：
+On-sit e ( 对⾓项 ):  $\epsilon_ 0  C _ 0  2t_ 0^z  4t_ 0$ 3 。
+Z⽅向层间跳跃  $t_z$):  仅保留  $z$ ⽅向的  Hopping 6 层 ) 。
+XY平⾯内跳跃  $t_{xy}$):
+$k^2$ 项  (Mass $t \cos(k) \r ight ar r o w \frac{t}{2} (|i\rangle \langle j|    
+h.c.$
+$k$ 项  (SOC $t \sin(k) \r ight ar r o w \frac{-it}{2} (|i\rangle \langle j|   
+h.c.$
+2. 伪代码  (Python/Pyqula ⻛格 )
+Py thon
+i m p o r t  n u m p y  a s  n p
+f r o m  p y q u l a  i m p o r t  g e o m e t r y ,  h a m i l t o n i a n s
+w or kflo w
+1
+
+============================================================
+PAGE 2
+============================================================
+
+#  1 .  定义参数  ( 直接来⾃  S I  第  3 0  ⻚  E q .  S 9 )  [ c i t e :  1 9 8 8  1 9 9 5 ]
+C 0 ,  C 1 ,  C 2     0 . 0 0 4 8 ,  2 . 7 2 3 2 ,  0 . 0
+M 0 ,  M 1 ,  M 2     0 . 1 1 6 5 ,  1 1 . 9 0 4 8 ,  9 . 4 0 4 8
+A 1 ,  A 2    4 . 0 5 3 5 ,  3 . 1 9 6 4
+a z    1 3 . 6 4   #  层间距
+a    4 . 3 3 4    #  ⾯内晶格常数
+#  2 .  构建层状⼏何   6 S L )
+#  创建⼀个  W i d t h  x  L e n g t h  x  6  的⻓⽅体格点系统
+d e f  b u i l d _ M B T _ s y s t e m ( L  1 0 0 ,  W  4 0    
+    g  =  g e o m e t r y . c u b i c _ l a t t i c e ( L ,  W ,  6   #  6 层厚度
+    r e t u r n  g
+#  3 .  构建哈密顿量矩阵
+d e f  m o d e l _ H a m i l t o n i a n ( k = N o n e ) :
+    #  这⾥的矩阵  H  是  4 x 4  的，基于  E q .  S 7  #  需要将  E q .  S 8  的  t 0 ,  t 1 . . .  参数代⼊
+    #  注意：这⾥需要⼿动写⼀个函数，将  G a m m a  矩阵转化为  4 x 4  数组
+    #  并在每⼀层的对⾓块中加⼊磁性项  + / -  m _ z  [ c i t e :  2 0 0 1 
+    p a s s  
+#  4 .  添加  A F M  磁序  [ c i t e :  2 0 0 1 ,  2 0 0 6 ]
+d e f  a d d _ A F M _ o r d e r ( h ) :
+    m _ v a l    0 . 0 3 0  #  3 0  m e V  [ c i t e :  2 0 0 6 
+    f o r  i  i n  r a n g e ( h . g e o m e t r y .  N a t o m s ) :
+        l a y e r _ i n d e x  =  g e t _ z _ l a y e r ( i )
+        #  奇数层  + m ,  偶数层  - m
+        s i g n    1  i f  l a y e r _ i n d e x  %  2     0  e l s e   1
+        h . a d d _ z e e m a n ( i ,  [ 0 ,  0 ,  s i g n  *  m _ v a l ] )
+动作：  画出能带图，确认在  $\Gamma$ 点有能隙  (Massiv e Dirac Cone) 。
+第⼆阶段：⾮平衡格林函数  (NEGF) 计算引擎
+⽬标：  实现⼆阶⾮线性霍尔电流的计算。
+1. 数值计算原理  (Finite Difference NEGF)
+直接推导⼆阶  NEGF 公式极其复杂。最稳健的数值⽅法是有限差分法。
+⼆阶响应定义为  $J _ y \pr opt o E_x^2$ 。
+我们在  x ⽅向施加微⼩偏压  $V$ ，计算  y ⽅向的电流  $J _ y$ 。
+$$J _ y^2 \appr o x \frac{J _ y(+ V)  J _ y(- V)}{2$$
+(利⽤  $JV  G^1V  G^2V^2  \dot s$ ，偶数项即为⼆阶项 ) 。
+2. 伪代码
+Py thon
+#  N E G F  计算核⼼函数
+d e f  c a l c u l a t e _ c u r r e n t _ N E G F ( h a m i l t o n i a n ,  b i a s _ V ,  e n e r g y = 0 . 0  
+w or kflo w
+2
+
+============================================================
+PAGE 3
+============================================================
+
+    #  1 .  构建左右电极的⾃能  S i g m a _ L ,  S i g m a _ R
+    #  2 .  在中⼼区哈密顿量加上偏压  V   电势沿  x  线性降落 )
+    H _ d e v i c e    H 0    P o t e n t i a l ( x )  *  b i a s _ V
+    
+    #  3 .  计算格林函数
+    #  G ^ R    i n v ( E    H _ d e v i c e    S i g m a _ L    S i g m a _ R 
+    
+    #  4 .  计算透射系数或电流密度
+    #  这⾥我们需要横向电流  J _ y 。
+    #  J _ y    T r [  v _ y  *  G ^ <  ]
+    #  G ^ <    G ^ R  *  S i g m a ^ <  *  G ^ A   K e l d y s h  ⽅程 )
+    
+    r e t u r n  J _ y _ t o t a l
+#  ⼆阶响应提取器
+d e f  g e t _ n o n l i n e a r _ s i g n a l ( h ,  V _ b i a s = 0 . 0 1  
+    J _ p l u s  =  c a l c u l a t e _ c u r r e n t _ N E G F ( h ,  V _ b i a s )
+    J _ m i n u s  =  c a l c u l a t e _ c u r r e n t _ N E G F ( h ,   V _ b i a s )
+    
+    J _ 2 n d  =   J _ p l u s    J _ m i n u s )  /  2 . 0   #  提取偶次项  ( ⼆阶 )
+    r e t u r n  J _ 2 n d
+第三阶段：核⼼实验 —— ⽆序扫描  (The "PRL" Step)
+⽬标：  这是论⽂的核⼼创新点。分别引⼊标量⽆序和磁性⽆序，观察  $J^2$ 的衰
+减⾏为。
+1. 两种⽆序的定义
+标量⽆序  (Sc alar Disor der): 模拟杂质  doping 。
+$$H \r ight ar r o w H  \sum_ i V _{rand} c_ i^\dagger c_ i, \quad V _{rand} \ in [-
+W , W$$
+磁性⽆序  (Magnetic Disor der): 模拟反位缺陷或热涨落。
+$$H_{mag} \r ight ar r o w \sum_ i (\ v ec{M}_ i + \del t a \ v ec{m}_ i) \cdot  
+\ v ec{\sigma}, \quad \del t a \ v ec{m} \ t e x t{ is random dir ection}$$
+2. 分离 BCD 和  QMD ( 栅压奇偶法 )
+利⽤  Natur e 和  arXiv 论⽂中提到的对称性：
+施加垂直栅压电场  $E_z$ （在哈密顿量中加⼊  $z$ ⽅向电势差）。
+BCD  是  $E_z$ 的奇函数。
+QMD  是  $E_z$ 的偶函数。
+3. 伪代码  ( 数据⽣产流⽔线 )
+w or kflo w
+3
+
+============================================================
+PAGE 4
+============================================================
+
+Py thon
+d i s o r d e r _ s t r e n g t h s  =   0 . 0 1 ,  0 . 0 5 ,  0 . 1 ,  0 . 2 ,  0 . 5   #  W  值
+E z _ f i e l d    0 . 0 5  #  固定⼀个栅压
+r e s u l t s  =  [ ]
+f o r  W  i n  d i s o r d e r _ s t r e n g t h s :
+    J _ t o t a l _ l i s t  =  [ ]
+    
+    #  ⽆序平均循环  ( A v e r a g i n g )
+    f o r  s a m p l e  i n  r a n g e ( 1 0 0 ) :  #  跑 1 0 0 个样本取平均
+        
+        #  1 .  产⽣⽆序哈密顿量  ( 标量  或  磁性 )
+        h _ d i r t y  =  a d d _ d i s o r d e r ( h _ c l e a n ,  W ,  t y p e = ' s c a l a r ' )  
+        
+        #  2 .  施加  + E z
+        h _ p o s  =  a d d _ g a t e _ f i e l d ( h _ d i r t y ,   E z _ f i e l d )
+        J 2 _ p o s  =  g e t _ n o n l i n e a r _ s i g n a l ( h _ p o s )
+        
+        #  3 .  施加  - E z
+        h _ n e g  =  a d d _ g a t e _ f i e l d ( h _ d i r t y ,   E z _ f i e l d )
+        J 2 _ n e g  =  g e t _ n o n l i n e a r _ s i g n a l ( h _ n e g )
+        
+        #  4 .  分离  B C D  和  Q M D
+        J _ B C D     J 2 _ p o s    J 2 _ n e g )  /  2
+        J _ Q M D     J 2 _ p o s    J 2 _ n e g )  /  2
+        
+        J _ t o t a l _ l i s t . a p p e n d ( [ J _ B C D ,  J _ Q M D  
+    
+    #  取平均并保存
+    a v g _ s i g n a l s  =  n p . m e a n ( J _ t o t a l _ l i s t ,  a x i s = 0 
+    r e s u l t s . a p p e n d ( a v g _ s i g n a l s )
+#  最终得到 :  J _ B C D  W   和  J _ Q M D  W   的曲线
+第四阶段：论⽂结果图表规划  (Paper Figures)
+这是你写论⽂时直接要放进去的图：
+图  1 Model & Met hod):
+(a) 6SL MnBi$_2$T e$_ 4$ 的晶格结构⽰意图。
+(b ) 计算出的能带结构（复现  PDF Fig. 2 的特征）。
+( c ) $J _ y^2$ 随  $E_z$ 变化的 “ 蝴蝶曲线 ˮ ，展⽰奇偶分离的物理基础。
+图  2 The Disco v er y  Sc alar Disor der):
+纵轴： $\log(\sigma^2$ ，横轴： $\log(W)$ ( 标量⽆序强度 ) 。
+两条线：红⾊  (BCD) 和  蓝⾊  (QMD) 。
+w or kflo w
+4
+
+============================================================
+PAGE 5
+============================================================
+
+预期结果：  两者都下降，但在强⽆序下可能趋于⼀致或  QMD 稍强。
+图  3 The Smoking Gun  Magnetic Disor der):
+纵轴： $\log(\sigma^2$ ，横轴： $\log(W_{mag})$ ( 磁性⽆序强度 ) 。
+预期结果  (PRL P oint):  BCD 信号呈指数级极速衰减  (Cr ash)，因为  Hidden  
+BCD 依赖于完美的层间磁矩抵消被  $E_z$ 微扰。⼀旦磁结构乱了， Hidden  
+BCD 瞬间消失。
+QMD 信号：  衰减缓慢（ R obust ）。
+结论：  在真实且 “ 脏 ˮ 的磁性样品中， BCD 被过滤掉了，所以实验只看到了  
+QMD！
+图  4 Siz e Ef f ect  Optional):
+改变器件⻓度  $L$ ，看信号变化。验证  arXiv 关于 “ ⾮局域输运 ˮ 的猜想
+（ NEGF 天然包含有限尺⼨效应）。
+总结：你的核⼼  Story
+"之前的争议在于  Natur e 说只有  QMD ， arXiv 说有  Hidden BCD 。我们的全量⼦  
+NEGF 计算表明：在⼀个完美的理论晶体中， Hidden BCD 确实很强（⽀持  arXiv ）。
+但是，⼀旦引⼊实验中不可避免的磁性⽆序， Hidden BCD 极其脆弱，会被迅速抑
+制，⽽  QMD 依然存活（⽀持  Natur e 的实验观测）。因此，⽆序是量⼦⼏何的过滤
+器。 "
+w or kflo w
+5

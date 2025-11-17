@@ -1,0 +1,1180 @@
+
+
+============================================================
+PAGE 1
+============================================================
+
+Observation of the axion quasiparticle in 2D 
+MnBi2Te4
+In the format provided by the 
+authors and unedited
+Nature | www.nature.com/natureSupplementary informationhttps://doi.org/10.1038/s41586-025-08862-x
+
+============================================================
+PAGE 2
+============================================================
+
+Supplemental Information for
+This file includes:
+I. Additional data
+I.1. Magnon data of 5SL MnBi 2Te4
+I.2. Additional magnon data of 6SL MnBi 2Te4
+I.3. Additional static Kerr data
+I.4. Additional DAQ data of 6SL MnBi 2Te4
+I.5. Phonon data of 6SL MnBi 2Te4
+I.6. Other addition data and sanity check
+II. AFM Kerr and DAQ probed by DC Efield
+III. Dark matter Axion detection
+III.1. Detection sensitivity calculation
+III.2. Future steps to build a functioning Axion detector
+III.3 Comparison between the meV DAQ detector and two other proposed future detectors
+IV. Theoretical derivation for the layer Hall effect
+V. Tight binding model for MnBi 2Te4
+VI. Additional discussion
+1
+
+============================================================
+PAGE 3
+============================================================
+
+I. Additional data
+I.1. Magnon data for 5SL MnBi 2Te4
+In the main text, we focused on 6SL MnBi 2Te4. For completeness, here we show the magnon data (and
+the effect of E-field) in 5SL MnBi 2Te4. As shown in the TRMOKE data of 5SL MnBi 2Te4(Fig. S1), the
+out-of-phase magnon is the most prominent mode, consistent with previous results [1]. We then study the
+time-dependent magnetoelectric coupling αof 5SL MnBi 2Te4. As shown in Fig. S2, both the DC and AC E
+field measurements do not show observable αoscillation.
+TRMOKE data of 5SL MnBi2Te4
+Figure S1: a, TRMOKE data and FFT analysis of 5SL MnBi 2Te4(λpump= 1030 nm, λprobe= 515 nm)
+Δ𝛼𝛼 measured by DC 𝐸𝐸 field Δ𝛼𝛼 measured by AC 𝐸𝐸 field
+−
+3.2 V/nmDC 𝑬𝑬 field measurements AC 𝑬𝑬 field measurements
+a b c5SL MnBi2Te4
+Figure S2: E-field dependence of TRMOKE data of 5SL MnBi 2Te4. a, TRMOKE data at different
+DCEfield values ( B∥=3.5 T). b, Time-resolved ∆ αis obtained by the difference of the TRMOKE data at
+±1.6 V/nm divided by 3.2 V/nm. c, Time-resolved ∆ αmeasured by AC Efield dependent measurements.
+2
+
+============================================================
+PAGE 4
+============================================================
+
+I.2. Additional magnon data of 6SL MnBi 2Te4
+I.2.1 Theoretical calculation of magnon in 6SL MnBi 2Te4
+Using the standard Heisenberg model, we theoretically calculated the magnon modes in 6SL MnBi 2Te4.
+Theoretically, we obtained six magnon modes, which can be classified based on the C2symmetry (Fig. S3).
+Specifically, we found that two out of the six magnon modes (+1 A/−1A) resemble the in-phase and out-of-
+phase modes in bilayer or in the bulk limit. By further comparing our calculation with our experimental data
+(Fig. S4), we found that these two modes are likely to be the two experimentally observed magnon modes.
+Figure S5 studies how the equilibrium spin angles affect the Berry curvature oscillation. In Figs. S5 a,b, the
+spin equilibrium angle was set to the the same ( ±19.7◦) across all layers. In Figs. S5 c,dshould be different
+for different layers. The spin equilibrium angles are calculated based on the Heisenberg model. We set the
+angles of the top and bottom layers to be the same ( ±19.7◦). In particular, the angles of inner layers are
+larger because the inner layers feel stronger exchange coupling. The corresponding Berry curvature oscillation
+are similar to the previous, except for a small global shift (Fig. S5).
++1𝐴𝐴 +1𝐵𝐵 +1𝐶𝐶
+ −1𝐴𝐴 −1𝐵𝐵 −1𝐶𝐶
++
+−
++
+−
++
+−+
+−
+−
+++
+−+
++
++
+−−
+−+
++
++
+++
+++
++
+−
+−+
+++
+−
++
++−
++
+L1
+L2
+L4
+L5
+L6L3
+𝐶𝐶2a b
+Figure S3: a,C2pairs in 6SL MnBi 2Te4.b, Schematic illustration of the six magnon modes. The initial
+phase of the spin is denoted by the pink vector as well as the + ,−on the right-hand side of the layer. In
+this figure, the equilibrium angle is assumed to be the same for all layers for simplicity.
+Theoretical calculation Experimental dataa b
+Figure S4: a, Calculated magnon energy as a function of B∥for 6SL MnBi 2Te4. The red and blue highlights
+the +1 Aand−1Amodes. b, Red and Blue circles denote our experimentally measured energy of the out-of-
+phase and in-phase magnons. The black lines are the theoretical calculations same as panel ( a).J= 0.2954
+meV and κ= 0.03130 meV.
+3
+
+============================================================
+PAGE 5
+============================================================
+
++19.7∘
+−19.7∘
++19.7∘
+−19.7∘
++19.7∘
+−19.7∘
++19.7∘
+−43.4∘
++46.1∘
+−46.1∘
++43.4∘
+−19.7∘Original calculation Updated calculation a c
+b d
+Figure S5: a, Calculation of Berry curvature oscillation of 6SL MnBi 2Te4.b,The spin equilibrium angles are
+assumed to be uniform ( ±19.7◦) across all layers. The spin precession angle is 5◦.c,The spin equilibrium
+angles are calculated based on the Heisenberg model. We set the angles of the top and bottom layers to
+be the same ( ±19.7◦). The angles of inner layers are larger because the inner layers feel stronger exchange
+coupling. d,Corresponding Berry curvature oscillation.
+I.2.2 Additional magnon data of WSe 2/6SL MnBi 2Te4
+Fig. S6 presents the pump photon energy and pump polarization dependence of magnon data in WSe 2/6SL
+MnBi 2Te4. The magnon data does not depend on the pump polarization or pump photon energy, which
+suggests that the excitation mechanism is laser-heating induced coherent precession [2].
+Pump photon energy dependence Pump polarization dependence a
+FFT Amplitude ( a.u.)
+03060
+Frequency (GHz)0 200 400
+Delay ( ps)0 40 80Δkerr (μ rad)
+0300600b
+10301030
+Figure S6: a, TRMOKE of WSe 2/6SL MnBi 2Te4using pump photon energies of 720 nm and 1000 nm. b,
+TRMOKE of WSe 2/6SL MnBi 2Te4using different pump polarizations.
+4
+
+============================================================
+PAGE 6
+============================================================
+
+I.3. Additional static Kerr data
+Firstly, Fig. S7 shows the static Kerr vs B⊥data in a 6SL MnBi 2Te4dual-gated device, which is consis-
+tent with [3], therefore confirming that the sample remains even-layered structure after microfabrications.
+Additional electric field dependence further demonstrates the magnetoelectric effect.
+-5 0 5
+B (T)-20020Kerr (mrad)Forward
+Backwarda b c
+⟂ B⟂ (T) B⟂ (T)
+Figure S7: a, Static MOKE data of 6SL MnBi 2Te4as a function of out-of-plane B⊥field. b, Zoomed-in view
+of the antiferromagnetic state at two different electric field Evalues. The amplitude of the MOKE changes
+byEfield due to the magnetoelectric coupling. c, MOKE as a function of DC Efield at B⊥= 0. The linear
+Edependence of the MOKE amplitude shows the magnetoelectric coupling. λprobe = 515 nm.
+𝐸𝐸-induced Kerr (𝜇𝜇 rad⋅V−1⋅nm)
+𝐸𝐸-induced 𝜎𝜎𝑥𝑥𝑥𝑥𝑒𝑒2/ℎ100
+50
+0
+-50
+-100
+500 600 700 800 900 1000 500 600 700 800 900 1000
+𝜆𝜆 (nm) 𝜆𝜆 (nm)0.04
+0
+-0.04a b Theory Experiment
+Figure S8: a, Experimentally measured E-field induced Kerr at different wavelengths. b, Theoretically
+calculated E-field induced σxyat different wavelengths.
+Secondly, In addition the optical detection of magneto-electric coupling is based on the assumption that
+Kerr rotation measures magnetization.
+1. As shown in Fig. S9, we can measure the magnetization Mzof bulk MnBi 2Te4as a function of Bzusing
+SQUID and compare with the Kerr vs. Bzof 6SL MnBi 2Te4. Both the Kerr and Mzshow a linear
+dependence on Bz, therefore suggesting that Kerr is proportional to magnetization in our system (Kerr
+∝B∝Mz).
+2. Fig. S8 ashows the probe wavelength dependence of the E-field induced Kerr rotation. Furthermore,
+we theoretically calculated the E-field induced σxy, which shows a good agreement between data and
+calculation, based on Kerr ∝σxy(λ)∝γ(λ)Mz. This result therefore suggests our conclusion that the
+5
+
+============================================================
+PAGE 7
+============================================================
+
+measured E-field induced Kerr rotation in 6SL MnBi 2Te4indeed reflects the E-field induced magneti-
+zation.
+3. To further strengthen point 2 above, in our DFT calculation, we could calculate the E-induced σxyand
+E-induced Mz. As shown in Fig. S10, both σxyandMzare linearly dependent on E. Hence, we could
+obtain Kerr ∝σxy∝E∝M, which demonstrates the proportionality between Kerr rotation and Mz.
+4. We further measured the doping ndependence of the∆Kerr
+∆E(similar to the Fig. 4b of main text) using
+three wavelengths. If∆Kerr
+∆Evs.nis a good measure of α(n), then different wavelengths should give
+consistent results. Indeed, our data (Fig. S11) show similar behavior. We further elaborate on the
+logic: Because Kerr ∝γMz, its variation as a function of n, ∆Kerr /∆n, may come from ∆ Mz/∆nor
+∆γ/∆n. If it comes from Mz, the ndependence should be the same function at various wavelengths
+upon normalization. By contrast, if it comes from γ, then ndependence of γshould be different
+functions at various wavelengths. Furthermore, our measured∆Kerr
+∆Evs.nshows good agreement with
+the theoretically calculated α(n). Therefore, collectively, these evidences suggest that the measured n
+dependence mostly arises from changes in Mz.
+5. Furthermore, we can achieve a symmetry-based, direct proof that our E-induced Kerr is measuring
+E-induced magnetization. As shown in Ref. [3], magnetization Mzinduces both Kerr (reflection) and
+Faraday (transmission) rotation. By contrast, the AFM order Lzonly shows up in Kerr but is absent in
+Faraday. Therefore, if the E-field induced signal shows up in both reflection (Kerr) and in transmission
+(Faraday), then it measures Mz. Figure S12 shows the simulatneous Kerr and Faraday measurements
+at different DC Efield. we see that the linear-to- Eeffect exists in both reflection and transmission.
+But in reflection, there is a nonzero offset at E= 0 due to the AFM Kerr; In transmission, the Faraday
+rotation is zero at E= 0. Therefore, our simultaneous reflection and transmission measurements
+directly prove that the observed linear-to- EKerr rotation is due to magnetization Mz.
+a b M⟂ v.s. B⟂ curve Kerr v.s. B⟂ curve
+Bulk MBT 6SL MBT⟂
+Figure S9: a,Mz-Bzof bulk MnBi 2Te4measured by SQUID. b, Kerr- Bzof 6SL MnBi 2Te4.
+Thirdly, static magnetic properties such as TNand the spin flop field Bspinflop can also serve as an
+experimental check if JandKwere strongly modified by gating ( J: exchange coupling, K:anisotropy). As
+shown in Fig. S13, TNandBspinflop do not show observable dependence on nandE, suggesting that Jand
+Kare roughly invariant within the experimentally studied nandErange.
+6
+
+============================================================
+PAGE 8
+============================================================
+
+a b
+σxy ∝ E M ∝ EFigure S10: a, Theoretical calculation of σxy-Eof 6SL MnBi 2Te4. The wavelength of σxyis 515 nm. b,
+Theoretical calculation of Mz-Ezof 6SL MnBi 2Te4.
+Figure S11:∆Kerr
+∆Evs.nmeasurement using three wavelengths (normalized at n= 0).
+a b
+Figure S12: Simultaneous Kerr ( a) and Faraday rotation ( b) measurements as a function of Efield for 6SL
+MnBi 2Te4.
+7
+
+============================================================
+PAGE 9
+============================================================
+
+𝐵𝐵⊥ (T) 𝐵𝐵⊥ (T)𝑇𝑇N as a function of 𝑛𝑛 and 𝐸𝐸 𝐵𝐵spin  flop as a function of 𝑛𝑛 and 𝐸𝐸 
+𝑇𝑇N 𝑇𝑇N 
+𝐵𝐵spin  flop 𝐵𝐵spin  flop a b
+-2-2-2
+-2-2-2Figure S13: Static Kerr measurements of TN(a) and Bspinflop (b) as a function of nandE(λprobe=515 nm).
+8
+
+============================================================
+PAGE 10
+============================================================
+
+I.4. Additional DAQ data of 6SL MnBi 2Te4
+I.4.1. Addressing competing mechanisms
+We present additional data, to address competing mechanisms. In particular, if the electrostatic gating
+strongly modifies the exchange coupling Jand magnetic anisotropy K, it might also change the TRMOKE
+signal. Thus, we investigated the nandEdependence of the TRMOKE signals. In particular, in even-layer
+MnBi 2Te4, there are in total eight distinct dependences. I.e., how does the frequency (orTRMOKE
+amplitude ) of the in-phase (orout-of-phase ) magnon depend on n(orE). We found that the only
+observed change is that the TRMOKE amplitude shows a linear Edependence at the out-of-phase magnon
+frequency. If the exchange coupling Jand the anisotropy Kwere strongly modified by gating, then we would
+expect both the frequency and TRMOKE amplitude of both magnon modes to show gate dependence (both
+nandE). Therefore, our results strongly suggest that the alternative effect that JandKare strongly
+modified is unlikely to be origin. Rather, the DAQ is a more plausible and consistent interpretation. Below,
+we present the corresponding data.
+0 200 400
+Frequency (GHz)00.20.40.60.811.21.4FFT Amplitude (a.u.)
+a
+B|| = 3 TB|| = 3.5 TB|| = 4 TB|| = 4.5 TB|| = 5 TB|| = 5.5 TB|| = 6 Tb
+Figure S14: TRMOKE data of 6SL MnBi 2Te4at different B∥field (red and blue triangles represent out-of-
+phase and in-phase magnons).
+Figure S14 shows the TRMOKE data of 6SL MnBi 2Te4. The signal consists of both the AFM Kerr and
+the regular Kerr, therefore can detect both the in-phase and out-of-phase magnons. As shown in Fig. S14,
+the in-phase magnon is prominent at small B∥, whereas the out-of-phase magnon becomes
+strong at large B∥.
+We set B∥= 3 T, where the in-phase magnon is prominent. As shown in Fig. S15, the in-phase magnon
+shows no observable nandEdependence in terms of both the frequency and TRMOKE amplitude.
+We set B∥= 6 T, where the out-of-phase magnon is prominent. As shown in Fig. S16, the out-of-phase
+magnon shows no observable ndependence in terms of both the frequency and TRMOKE amplitude as well
+as no observable Edependence in terms of the frequency. The only observed change is that the TRMOKE
+amplitude shows a linear Edependence at the out-of-phase magnon frequency.
+9
+
+============================================================
+PAGE 11
+============================================================
+
+𝒏𝒏 dependence 𝑬𝑬 dependencea b
+In-phase magnon 
+at 𝑩𝑩||=3 T
+Figure S15: Gate dependent TRMOKE data at B∥= 3 T. The in-phase magnon shows no observable nand
+Edependence in terms of both the frequency and TRMOKE amplitude. λpump = 1030 nm, λprobe = 515
+nm.
+Out-of-phase magnon 
+at 𝐵𝐵//=6 T
+𝒏𝒏 dependence 𝑬𝑬 dependence
+a b c d
+e f
+Figure S16: Gate dependent TRMOKE data at B∥= 6 T. Top row: The out-of-phase magnon shows no
+observable nandEdependence in terms of both the frequency and TRMOKE amplitude. Bottom row: A
+zoomed-in view of the TRMOKE with three different Evalues. Edependence TRMOKE at delay time 10
+ps (dotted line on the left). λpump = 1030 nm, λprobe = 515 nm.
+I.4.2. Eand ndependence of TRMOKE measured by DC and AC methods
+We now try to obtain the time-resolved αby DC Efield method, and show that the result is fully consistent
+with the AC Efield modulation method adapted in the main text. Specifically, we first park the magnetic
+field at B∥= 6 T, where the out-of-phase magnon is prominent. Figure S17 ashows the TRMOKE at different
+DCEvalues (same data as Fig. S16). In order to obtain the time-resolved ∆ α, we subtract the TRMOKE
+data at E=±1.6 V/nm and divide it by 3 .2 V/nm. The result, shown in Fig. Fig. S17 b, shows an oscillation
+ofα. Therefore, we can detect the αoscillation (the DAQ) by DC Efield method; The result (Fig. S17 b)
+is consistent with that of AC Efield lock-in method shown in Fig. S17 c(the AC data has better signal to
+noise ratio).
+Moreover, we can also the magnetic field at at B∥= 4.5 T, where both the in-phase and out-of-phase
+magnons are excited. When we perform E-field dependence (both DC and AC), we can also see the α
+10
+
+============================================================
+PAGE 12
+============================================================
+
+oscillation at the out-of-phase magnon frequency with fully consistent results (Fig. S18).
+Furthermore, we performed similar comparison between DC and AC doping ndependence. Figure S19
+shows the TRMOKE data at ±nvalues (same data as Fig. S16). The TRMOKE does not show significant
+change with n. As such, their difference (Fig. S19 b) is nearly zero. Consistent result is obtained if one AC
+modulates the doping n(Fig. S19 c).
+Δ𝛼𝛼 measured by DC 𝐸𝐸 field Δ𝛼𝛼 measured by AC 𝐸𝐸 field
+−
+3.2 V/nmDC 𝑬𝑬 field measurements AC 𝑬𝑬 field measurements
+b c a TRMOKE DC data
+Figure S17: Comparison between DC and AC Efield dependent measurements at 6 T. a, TRMOKE data
+at different DC Efield values (same data as Fig. S16). b, Time-resolved ∆ αis obtained by the difference
+of the TRMOKE data at ±1.6 V/nm divided by 3.2 V/nm. c, Time-resolved ∆ αmeasured by AC Efield-
+dependent measurements.
+DC𝑬field measurements AC𝑬field measurements B= 4.5 T
+Δ𝛼measured by DC𝐸field Δ𝛼measured by AC𝐸field
+−
+3.2V/nmb c aTRMOKE DC data
+Figure S18: Comparison between DC and AC Efield dependent measurements at 4.5 T. a, TRMOKE data
+at different DC Efield values at 4.5 T, both in-phase and out-of-phase magnons are clearly observed. b,
+Time-resolved ∆ αis obtained by the difference of the TRMOKE data at ±1.6 V/nm divided by 3 .2 V/nm.
+c, Time-resolved ∆ αmeasured by AC Efield-dependent measurements.
+11
+
+============================================================
+PAGE 13
+============================================================
+
+−
+16×1012 cm−2DC 𝒏𝒏 dependent measurements
+a b cAC 𝒏𝒏 dependent measurements
+Real time Kerr trace DC measurement AC measurement
+-2
+-2
+ΔKerr/Δn (𝜇𝜇rad⋅10-12 cm2)
+ΔKerr/Δn (𝜇𝜇rad⋅10-12 cm2)Figure S19: Comparison between DC and AC doping ndependent measurements. a, TRMOKE data at
+different DC nvalues. b, The difference of the TRMOKE data at ±8×1012cm−2·V/nm divided by 16 ×1012
+cm−2·V/nm. c, AC doping ndependent measurements of the TRMOKE.
+I.4.3. Doping dependence of DAQ data
+In the main text, all ∆ αmeasurements were performed with the Fermi level at charge neutrality ( n= 0).
+Here, we present the ndependence of ∆ αmeasurements for completeness. As shown in Fig. S20, the ∆ α
+oscillation frequency remains the same at different nvalues, but the oscillation amplitude decreases as one
+changes from charge neutrality ( n= 0) to both electron-doped and hole-doped regimes. This observation is
+consistent with our static αversus nmeasurements shown in Fig. 4 bof the main text.
+a b
+Figure S20: Time-resolved αdata at different nvalues ( B∥=6 T).
+12
+
+============================================================
+PAGE 14
+============================================================
+
+I.4.4. Reproducibility of DAQ
+We present the reproducibility of DAQ at different locations on the sample (Fig. S21).
+Spot 1 Spot 1
+Spot 2 Spot 2b a
+e d
+Spot 1
+Spot 2c
+f
+Figure S21: Reproducibility of dynamical Axion quasiparticle at different locations. a-c At laser
+spot-1 location, time-dependent αmeasurements and FFT. d-f,Same as a-cfor a different location on the
+sample. Scale bar: 20 µm
+13
+
+============================================================
+PAGE 15
+============================================================
+
+I.4.5. Direct comparison of DAQ and magnon
+Here, we show the direction comparison of DAQ (measured by ∆ α) and magnons (measured by TRMOKE)
+in Fig. S22. Regarding both the B∥andTdependence, the DAQ agrees very well with the out-of-phase
+magnon.
+Kerr amplitudeMagnons 
+by Kerr in WSe2/6SL MnBi2Te4DAQ 
+by 𝛼𝛼 oscillation in 6SL MnBi2Te4a
+cb
+d
+Figure S22: Comparison between magnon and DAQ a , Magnon frequency probed by the TRMOKE in
+WSe 2/6SL MnBi 2Te4heterostructure. b, The DAQ by the αoscillation in 6SL MnBi 2Te4.c-dTemperature
+dependence of magnon and DAQ, respectively.
+I.5. Phonon data of 6SL MnBi 2Te4
+In the main text, we focused on the magnon-induced effect. We discuss phonon induced effect in this
+section. Theoretically, we use DFT to compute the phonon frequencies at Γ point of 6SL MnBi 2Te4. As
+shown in Fig. S23, the lowest phonon frequency is ∼160 GHz, which is much higher than the experimentally
+observed DAQ frequency. Experimentally, we can observe the breathing phonon at ∼200GHz by time-resolved
+reflectivity (∆ R/R) measurements, which is also consistent with [4]. In addition, we also investigated the
+gate dependence of this phonon mode. As shown in Fig. S24, our data show no observable gate dependence
+and no observable temperature dependence across TN.
+0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
+𝜔𝜔 (GHz)
+Figure S23: Theoretically calculated phonon frequency
+14
+
+============================================================
+PAGE 16
+============================================================
+
+Pump
+P
+r
+o
+b
+e
+ΔR
+Gate depedenceTemperature depedencea b
+c
+d
+eFigure S24: a-c, Time-resolved reflectivity data showing the breathing phonon oscillation. d-f, Temperature
+and gate dependence of the phonon amplitude (measured by the Fourier peak value). λpump = 1030 nm,
+λprobe = 515 nm,
+15
+
+============================================================
+PAGE 17
+============================================================
+
+I.6. Other addition data and sanity check
+In this section, we present other additional data to support our conclusion in the main text. As shown in
+Fig. S25, we have performed additional experiments including the M∥−H∥measurements on bulk MnBi 2Te4,
+the optical linear dichroism ( ∝M2
+∥) in 6SL MnBi 2Te4and the magnetoelectric coupling ( α∝Lz) in 6SL
+MnBi 2Te4. These experiments confirmed the expected magnetic ground state under a finite in-plane magnetic
+field B∥. In addition, we present the optical images of all devices used in our experiments in Fig. S26.
+Furthermore, Fig. S27 and Fig. S28 showed the reproducibility and symmetry analysis of the magneto-electric
+effect.
+~
+B||M||B||S
+B||Lz
+B∥ (T)𝑀||
+Bulk MnBi2Te4𝑧6SL MnBi2Te4𝑧
+B||6SL MnBi2Te4 𝑧
+LD
+B||
+ B||
+LD ∝ M|| 2
+α ∝ Lz
+B∥ (T) B∥ (T)a b c d 𝛼=𝛾𝑑Kerr
+𝑑𝐸𝑧 
+Figure S25: a, Schematic illustration of how the Mn spins cant with increasing B∥and the evolution of Lz
+andM∥.b,M∥−B∥data in bulk MnBi 2Te4.c, Optical linear dichroism (LD) as a function of B∥in 6SL
+MnBi 2Te4.d,α(measured by E-field induced Kerr rotation) as a function of B∥in 6SL MnBi 2Te4.
+a b c
+e f gd
+Figure S26: Optical microscope device images. a Dev1 is an heterostructure of 6-SL MnBi 2Te4and
+monolayer WSe 2(red triangle). b-gDevice images of 6-SL MnBi 2Te4for Dev2-Dev7. Scale bar: 20 µm
+16
+
+============================================================
+PAGE 18
+============================================================
+
+E (V/nm)RCD (Dev-5
+n (
+b a
+(e2/2h)Figure S27: Reproducibility data for static magnetoelectric coupling αmeasurements. Probe
+wavelength is at 600 nm. We note that Kerr and RCD gives similar results.
+b
+P T✕✕P T✓✕P T✓ ✕a
+6 SL 6SL (B⟂=7 T) 7 SLEven-layer
+MnBi2Te4Ferromagnetic
+MnBi2Te4Odd-layer
+MnBi2Te4（e2/2h）
+Figure S28: Symmetry analysis for static magnetoelectric coupling αmeasurements. a, The
+magnetoelectric coupling αrequires the breaking of both time-reversal Tand space-inversion Psymmetries.
+Even-layer antiferromagnetic MnBi 2Te4breaks both PandT, therefore is expected to show a nonzero α.
+By contrast, ferromagnetic MnBi 2Te4and odd-layer antiferromagnetic MnBi 2Te4both respect P, therefore
+are expected to show zero α.b,Measured magnetoelectric coupling for 6SL antiferromagnetic MnBi 2Te4,
+ferromagnetic 6SL MnBi 2Te4(B⊥= 7 T) and 7SL antiferromagnetic MnBi 2Te4.
+17
+
+============================================================
+PAGE 19
+============================================================
+
+II The AFM Kerr effect and DAQ probed with DC E-field
+II.1. The AFM Kerr effect
+The regular Kerr effect is proportional to magnetization Mz. However, in a PT-symmetric antiferromagnet
+with zero magnetization (breaking PandTbut preserves PT) such as Cr 2O3[5] or even-layer MnBi 2Te4[3],
+there is an AFM Kerr effect, which is proportional to the AFM order Lz. Moreover, the PT-symmetric AFM
+order Lzleads to the AFM Kerr effect but no Faraday effect. By contrast, Mzleads to both nonzero Kerr
+and Faraday effect. These conclusions have been experimentally demonstrated in MnBi 2Te4by Ref. [3].
+•6SL MnBi 2Te4is aPT-symmetric AFM with zero net magnetization. It shows the AFM Kerr effect.
+Moreover, it shows zero Faraday effect (Fig. S29).
+•5SL MnBi 2Te4has an uncompensated magnetization ( Mz), which is like a ferromagnet. So it supports
+both nonzero Kerr effect and Faraday effect, both proportional to Mz(Fig. S29).
+Figure S29: The net magnetization Mzcan be probed by both Kerr and Faraday. The AFM order Lz
+can only be probed by Kerr. These conclusions have been experimentally demonstrated by Ref. [3]. Here
+we reproduce the Fig. 3 of Ref. [3]. We note that Kerr/Faraday have the same symmetry as RCD/TCD
+(reflection circular dichroism and transmission circular dichroism).
+II.2. The AFM Kerr rotation shows up as a DC offset at E=0
+Therefore, for 6SL MnBi 2Te4, if we apply a DC Efield, we expect that the AFM Kerr ( ∝Lz) already shows
+up at E=0 (i.e., a nonzero offset); on top of that, there will also be a regular Kerr ( ∝Mz) that is linearly
+proportional to Efield due to the magnetoelectric coupling α. Indeed, this can be seen from our data under
+DCEfield (Fig. S30). By contrast, if we apply AC Efield modulation, then the lock-in signal would only
+detect the Kerr rotation that is linear to E(Fig. S30), therefore allowing us to isolate the magnetoelectric
+coupling signal.
+18
+
+============================================================
+PAGE 20
+============================================================
+
+b
+AFM  𝐿𝐿𝑧𝑧 at 𝐸𝐸=0 + 𝑀𝑀𝑧𝑧 induced by 𝐸𝐸  
+AFM Kerr at 𝐸𝐸=0 + Regular Kerr  ∝𝐸𝐸 6SL MnBi2Te4 under 𝐸𝐸 field
+DC 𝑬𝑬 field AC 𝑬𝑬 fielda
+cFigure S30: a, Analysis of the different order parameters ( LzandMz) of 6SL MnBi 2Te4under Efield. b,
+Kerr data as a function of DC Efield. c, Kerr data as a function of AC Efield modulation.
+II.3. The AFM Kerr does not have any linear-in- Econtribution
+One important question is whether the AFM Kerr can also support a linear-in- Ecomponent. Here, we show
+that, based on the symmetry analysis, the AFM Kerr can NOT have any linear-in- Econtribution. The
+symmetry analysis is as follows: The AFM Kerr has distinct symmetry properties; it breaks PandTbut
+respects PT. As a result, let us suppose the AFM Kerr has a linear-in- Ecomponent: AFM Kerr = χE. We
+can perform PToperation to both sides of the equation. Under PT, AFM Kerr is invariant, but Ebecomes
+−E. Therefore χ= 0. In other words, the AFM Kerr effect cannot have any linear-in- Ecomponent (it
+can only have even powers of Eincluding E0). In the next subsection, we further prove that the observed
+linear-in- EKerr purely comes from the E-induced magnetization, i.e., the magnetoelectric coupling.
+II.4. The observed linear-in- EMOKE arises from E-induced magnetization
+a b
+Figure S31: Simultaneous Kerr ( a) and Faraday rotation ( b) measurements as a function of DC Efield for
+6SL MnBi 2Te4. Both Kerr and Faraday show an linear-in- Eeffect due to the E-induced Mz. The Kerr signal
+has an additional offset at E= 0 due to the AFM Kerr effect.
+We now aim to prove that the observed linear-in- EKerr comes from the E-induced magnetization. As
+we discussed above, Mzwill induced both Faraday and Kerr rotation, but Lzwill only induce Kerr rotation.
+19
+
+============================================================
+PAGE 21
+============================================================
+
+Therefore, by testing if there is also an E-induced signal in Faraday effect, we can know if the E-induced Kerr
+signal is AFM Kerr ( ∝Lz) or regular Kerr ( ∝Mz). We have performed new measurements to study Kerr
+and Faraday simultaneously using DC Efield method. As shown in Fig. S31, our data clearly shows that the
+linear-in- Esignal exists in both Kerr and Faraday. Therefore, our simultaneous reflection and transmission
+measurements directly prove that the observed linear-in- EKerr rotation is the regular Kerr ∝Mz.
+𝐸𝐸-induced Kerr (𝜇𝜇 rad⋅V−1⋅nm)
+𝐸𝐸-induced 𝜎𝜎𝑥𝑥𝑥𝑥𝑒𝑒2/ℎ100
+50
+0
+-50
+-100
+500 600 700 800 900 1000 500 600 700 800 900 1000
+𝜆𝜆 (nm) 𝜆𝜆 (nm)0.04
+0
+-0.04a b Theory Experiment
+Figure S32: a, Experimentally measured E-field induced Kerr at different wavelengths. b, Theoretically
+calculated E-field induced σxyat different wavelengths.
+To further prove that the observed E-induced Kerr comes from magnetization. We note that formally,
+the regular Kerr rotation measures the off-diagonal (Hall) part of the optical conductivity σxy, which has
+identical symmetry properties as the out-of-plane magnetization Mz. Therefore, we can write Kerr( λ)∝
+σxy(λ)∝γ(λ)Mz. In order to verify this, we have (1) experimentally measured the E-field induced Kerr
+rotation as a function of the wavelength λand (2) theoretically calculated the wavelength dependence of
+theE-field σxy(λ). As shown in Fig. S32, we see a good agreement between data and calculation, which
+therefore strengthens our conclusion that the measured the E-field induced Kerr rotation in 6SL MnBi 2Te4
+indeed reflects the E-field induced magnetization (i.e., the magnetoelectric coupling α).
+a b
+σxy ∝ E M ∝ E
+Figure S33: a, Theoretical calculation of the optical σxy-Eof 6SL MnBi 2Te4. The wavelength of σxyis 515
+nm.b, Theoretical calculation of Mz-Ezof 6SL MnBi 2Te4.
+We can further strengthen the logic of the above proof as follows: First, the good agreement of the
+wavelength dependence demonstrates that our measured E-induced Kerr comes from E-field σxy(λ). This
+proof is quite solid because it is not based on a single number (e.g. at one wavelength); Rather it is based on
+the agreement of an entire curve (e.g. many wavelengths). Second, in our DFT calculation, we obtained the
+E-induced σxy(λ) by calculating σxy(λ) at different Evalues. We can also calculate the net magnetization
+20
+
+============================================================
+PAGE 22
+============================================================
+
+Mzat those Evalues. Fundamentally, we first compute a band structure of 6SL MnBi 2Te4for every E
+value, then the corresponding σxy(λ) and Mzcan be calculated based on the calculated band structure, see
+expressions below. As shown in Fig. S33, both σxyandMzare linearly dependent on E. Hence, we showed
+Kerr∝σxy∝E∝Mz.
+Morb.
+z=e
+ℏdImX
+nZ
+εnk≤µdkxdky
+(2π)2⟨∂kxunk|Hk+εnk−2µ|∂kyunk⟩,
+σxy(ω) =e2
+ℏdZdkxdky
+(2π)2X
+n,mfmnki(εmk−εnk)⟨unk|i∂kx|umk⟩⟨umk|i∂ky|unk⟩
+(εmk−εnk)−ℏω−iη. (S1)
+II.5. TRMOKE of 6SL MnBi 2Te4
+0 200 400
+Frequency (GHz)00.20.40.60.811.21.4FFT Amplitude (a.u.)
+a
+B|| = 3 TB|| = 3.5 TB|| = 4 TB|| = 4.5 TB|| = 5 TB|| = 5.5 TB|| = 6 Tb
+Figure S34: TRMOKE data of 6SL MnBi 2Te4(no WSe 2) at different B∥field (red and blue triangles represent
+out-of-phase and in-phase magnons).
+We now proceed to the time-resolved MOKE data. We have shown that the MOKE signal consists of two
+parts: the regular Kerr and the AFM Kerr.
+•The regular Kerr is proportional to the net magnetization Mz. Hence, it can detect the in-phase
+magnon, because the in-phase magnon features an oscillating Mz.
+•The AFM Kerr is proportional to the AFM order parameter Lzreported in [3]. Hence, it can detect
+the out-of-phase magnon, because the out-of-phase magnon features an oscillating Lz.
+As shown in Fig. S34, both magnon modes are observed. The in-phase magnon is prominently excited
+at small B∥, whereas the out-of-phase magnon is prominently excited at large B∥.
+II.6. TRMOKE at different DC Eand nvalues
+We set B∥= 3 T, where the in-phase magnon is prominent. As shown in Fig. S35, the in-phase magnon
+shows no observable nandEdependence in terms of both the frequency and TRMOKE amplitude.
+We set B∥= 6 T, where the out-of-phase magnon is prominent. As shown in Fig. S36, the out-of-phase
+magnon shows no observable ndependence in terms of both the frequency and TRMOKE amplitude as well
+21
+
+============================================================
+PAGE 23
+============================================================
+
+as no observable Edependence in terms of the frequency. The only observable effect is that the TRMOKE
+amplitude shows a linear in Edependence at the out-of-phase magnon frequency, which is exactly the α
+oscillation. These systematic data also provide an important cross-check in terms of what is observable/not
+observable: 7 out of 8 dependences show no effect NOT due to insufficient resolution; Under the same
+conditions, we clearly observe linear E dependence of TRMOKE amplitude at the out-of-phase frequency.
+𝒏𝒏 dependence 𝑬𝑬 dependencea b
+In-phase magnon 
+at 𝑩𝑩||=3 T
+Figure S35: Gate dependent TRMOKE data at B∥= 3 T. The in-phase magnon shows no observable nand
+Edependence in terms of both the frequency and TRMOKE amplitude. λpump = 1030 nm, λprobe = 515
+nm.
+Out-of-phase magnon 
+at 𝐵𝐵//=6 T
+𝒏𝒏 dependence 𝑬𝑬 dependence
+a b c d
+e f
+Figure S36: Gate dependent TRMOKE data at B∥= 6 T. Top row: The out-of-phase magnon shows no
+observable nandEdependence in terms of both the frequency and TRMOKE amplitude. Bottom row: A
+zoomed-in view of the TRMOKE with three different Evalues. Edependence TRMOKE at delay time 10
+ps (dotted line on the left). λpump = 1030 nm, λprobe = 515 nm.
+Fig. S37 presents a summary of the above results. In 6SL MnBi 2Te4, we have systematically studied in
+total eight distinct dependences. I.e., how does the frequency (or TRMOKE amplitude) of the in-phase (or
+out-of-phase) magnon depend on n (or E). Seven out of eight dependences show no observable effect. The
+only exception is that the TRMOKE amplitude shows a linear-in Edependence at the out-of-phase magnon
+frequency, which is the αoscillation. Moreover, we further show in SI.I (see Figs. S1 and S2) that there is no
+gate dependence for the TRMOKE of 5SL layer MnBi 2Te4. If the exchange coupling Jand the anisotropy κ
+22
+
+============================================================
+PAGE 24
+============================================================
+
+were strongly modified by gating, then we would expect both the frequency and TRMOKE amplitude of both
+magnon modes to show gate dependence (the ndependence is typically even stronger than Edependence,
+according to previous studies in Cr 2Ge2Te6[6] and CrI 3[7]). Also, we would expect similar effect in both
+even and odd layers. By contrast, if Jandκare roughly unchanged but the results were due to the DAQ
+(theαoscillation), then we would only expect a linear-in- ETRMOKE signal at the out-of-phase magnon
+frequency in even layer. Therefore, our results strongly suggest that the alternative effect that Jandκare
+strongly modified is unlikely to be origin. Rather, the DAQ is a more plausible and consistent interpretation.
+OUT-OF-PHASE MAGNONIN-PHASE MAGNONFrequencyTRMOKE amplitudeFrequencyTRMOKE amplitude𝒏No changeNo changeNo changeNo change𝑬No changeLinear 𝐸dep.No changeNo change
+Figure S37: A summary of the gate dependence of the magnon frequency and TRMOKE amplitude in 6SL
+MnBi 2Te4.
+II.7. DAQ probed DC Efield
+We now try to obtain the time-resolved αby DC Efield method, and show that the result is fully consistent
+with the AC Efield modulation method adapted in the main text. Specifically, we first park the magnetic
+field at B∥= 6 T, where the out-of-phase magnon is prominent. Figure S38 ashows the TRMOKE at different
+DCEvalues (same data as Fig. S36). In order to obtain the time-resolved ∆ α, we subtract the TRMOKE
+data at E=±1.6 V/nm and divide it by 3 .2 V/nm. The result, shown in Fig. Fig. S38 b, shows an oscillation
+ofα. Therefore, we can detect the αoscillation (the DAQ) by DC Efield method; The result (Fig. S38 b)
+is consistent with that of AC Efield lock-in method shown in Fig. S38 c(the AC data has better signal to
+noise ratio).
+Moreover, we can also set the magnetic field at at B∥= 4.5 T, where both the in-phase and out-of-phase
+magnons are excited. When we perform E-field dependence (both DC and AC), we can also see the α
+oscillation at the out-of-phase magnon frequency with fully consistent results (Fig. S39).
+Δ𝛼𝛼 measured by DC 𝐸𝐸 field Δ𝛼𝛼 measured by AC 𝐸𝐸 field
+−
+3.2 V/nmDC 𝑬𝑬 field measurements AC 𝑬𝑬 field measurements
+b c a TRMOKE DC data
+Figure S38: Comparison between DC and AC Efield dependent measurements at 6 T. a, TRMOKE data
+at different DC Efield values (same data as Fig. S36). b, Time-resolved ∆ αis obtained by the difference
+of the TRMOKE data at ±1.6 V/nm divided by 3 .2 V/nm. c, Time-resolved ∆ αmeasured by AC Efield-
+dependent measurements.
+23
+
+============================================================
+PAGE 25
+============================================================
+
+Δ𝛼measured by DC𝐸fieldΔ𝛼measured by AC𝐸field
+−
+3.2V/nmDC𝑬field measurements AC𝑬field measurements
+a b cB= 4.5 T
+TRMOKE DC dataFigure S39: Comparison between DC and AC Efield dependent measurements at 4 .5 T. a, TRMOKE data
+at different DC Efield values at 4 .5 T, both in-phase and out-of-phase magnons are clearly observed. b,
+Time-resolved ∆ αis obtained by the difference of the TRMOKE data at ±1.6 V/nm divided by 3 .2 V/nm.
+c, Time-resolved ∆ αmeasured by AC Efield-dependent measurements.
+24
+
+============================================================
+PAGE 26
+============================================================
+
+III. Dark Matter Axion Detection
+III.1 Detection sensitivity calculation
+Table 1 describes how we estimated the values of the parameters needed for the sensitivity calculation of the
+dark matter Axion detection using DAQ [8].
+Parameter Description Reference Values Comments
+ρDM Local Dark matter Axion density 0.4 GeV/cm3Estimation from astrophysics [9]
+fΘ DAQ decay constant 82 eV DFT calculations, see below
+mDAQ DAQ mass 0.18 meV Experimental data in this work
+n Dielectric constant 6.4 DFT calculation
+Γm Magnetic impurity density 0.7 ×10−3Value estimated from [10]
+Γρ THz conductance 0.2 ×10−3DFT calculation
+A Detector Area 0.16 m2Large sample grown by MBE [11]
+d Sample thickness 0.4 mm Optimal thickness based on [8]
+B External magnetic field 1-10 T Typical cryostat conditions
+η Single photon detector effiency 0.95 Estimated from [12]
+λd Dark count rate 10−5Hz Estimated based on [12]
+Table 1: Parameter estimation values for dark matter Axion detector sensitivity calculation
+fΘis given by fΘ=g√
+J[8], Where Jis the spin wave stiffness, and g=δL/δθ describes the strength
+of the DAQ ( Lis the antiferromagnetic order parameter). Extended Data Fig. 7 shows θvs.Lfor 6SL
+MnBi 2Te4, from which we get g= 0.042 eV. Jis defined as follows based on [13]. We could write down the
+Hamitonian for bulk MnBi 2Te4:
+H=5X
+i=1diΓi
+Γ1,2,..,5= (τ1σ3,−τ1σ2, τ1σ1, τ3σ0, τ0σ3)
+d1,2,..,5= (A1
+csin(kzc),A2
+asin(kxa),−A2
+acos(kya), M0+2M1
+c2(1−cos(kzc))+2M2
+a2[2−cos(kza)+cos( kya)],(−1)lm5)
+, where ldenotes the bulk MnBi 2Te4layer number, and a,care lattice constants. The tight-binding model
+parameters are given by: A1= 2.7023 eV ·˚A,A2= 3.1964 eV ·˚A,M1= 11.9048 eV ·˚A2,M2= 9.4048 eV ·˚A2,
+M0=−0.04 eV, m5= 0.03 eV, a= 4.334˚A,c= 40.91˚A. With the tight-binding model above, the Jof bulk
+MnBi 2Te4can be calculated as: J=Rd3k
+(2π)3P4
+i=1d2
+i
+16P5
+i=1d2
+i. As a result, we found J= 3.612×10−4eV−3˚A−3. By
+taking the astrophysics convention of ℏ=c= 1, we could obtain fΘ=g√
+J= 82 eV.
+The dielectric constant ϵ=χ+ 1, where χis the electric susceptibility. χwas calculated using,
+χij(ω) =e2
+ℏVX
+n∈occ,m∈unocc, k2ωmn
+ω2mn−ω2Re[ri
+nmrj
+mn] (S2)
+Here, V is the system volume, ri
+mn=⟨ψm|ˆri|ψn⟩is the position matrix element, and ℏωmn=ϵm−ϵnis
+the difference in energy eigenvalues for the Bloch state |ψm⟩and|ψn⟩.
+Resonant frequency: As shown in Ref. [8], the resonant frequency for Axion detection is given by
+ωr=ωj=q
+ω2
+DAQ polariton+δωj=q
+ω2
+DAQ+C2B2+δω2
+j
+, where δω2
+j=∆2
+jb2
+n2d2ω2
+DAQ polariton.
+Here we show that δωjis indeed neglectably small, as shown in Fig. S40 a. As such, the Axion-polariton
+frequency can be simplified asq
+ω2
+DAQ+C2B2
+∥. Based on our estimation, the value of Cis around 0.615
+25
+
+============================================================
+PAGE 27
+============================================================
+
+meV·T−1. Figure S40 bshow how ωLOis tuned by B∥based on C= 0.615 meV ·T−1(ωLOis the dark matter
+detection mass). Our result shows that for a magnetic field less than 10 T, ωLOcan be tuned by B∥to cover
+a large meV region.
+∥E (meV)a b
+Figure S40: a,δωj/ωLOas a function of B∥.b,ωLO, which is given byq
+ω2
+DAQ+C2B2
+∥, is shown as a
+function of B∥.
+III.2 Future steps to build a functioning Axion detector
+We describe the future experimental preparations that are needed in order to build a functional Axion
+detector based on our DAQ material.
+1. Sample size: For the photon counting approach, we need the sample area needs to be 0 .16 m2and
+the thickness of 0 .4 mm. MnBi 2Te4has been grown by MBE [14] which solves the sample area issue.
+Large thickness is more challenging. As shown in the main text, the DAQ in 6L MnBi 2Te4relies on
+the finite thickness hybridization gap. We propose to grow mm-thick samples that consist of repeating
+superlattice between 6L MnBi 2Te4and spacer layer such as Al 2O3. In this way, the 6L MnBi 2Te4films
+are isolated from each other but the total thickness can be large. We can first test the superlattice with
+smaller total thickness (e.g. 100nm) to optimize its quality and growth speed. Then we can grow a 0.4 mm
+thickness superlattice, which we estimate to take multiple weeks [15]. Apart from MnBi 2Te4, Mn 2Bi2Te5
+is a new bulk crystal that can be viewed as a natural superlattice between bilayer MnBi 2Te4and Bi 2Te3,
+where theory has predicted large DAQ [16]. Large, mm size single crystals have been synthesized [17,18].
+Beyond the Mn-Bi-Te based materials, we have discussed the possibility of searching for large DAQ in
+multiferroic insulators, which can be a future direction.
+PhotonDAQPolaritonFrequency𝜔
+Wavevector𝑘Gap opening
+Figure S41: Polariton.2. Directly measure Axion polariton: In our current experiments,
+we used a pump laser of visble photons ( ℏω≃2.5 eV), which is off
+resonance and relies on the laser-heating induced coherent spin wave
+excitation. Hence our pump laser only excited the DAQ (i.e., the out-
+of-plane magnon) at frequency/mass mDM= 44 GHz= 0 .18 meV. If
+we use low energy photons that are close to the resonance, then those
+photons and the DAQ (i.e., the out-of-plane magnon) can hybridize to
+form Axion polaritons (magnon polaritons), which can be understood
+as the gap opening and level-repel picture shown in Fig. S41. The top
+of the gap is at energyq
+m2
+DAQ+C2B2
+∥, which grows with magnetic
+field B∥. Such an Axion polariton can be directly measured on our
+6L MnBi 2Te4by the scanning near-field optical microscope (SNORM)
+[19].
+26
+
+============================================================
+PAGE 28
+============================================================
+
+3. Losses: Material imperfection (residue conductivity and magnetic impurities) can lead to damping of
+the electromagnetic waves inside the material. Right now we have Γ ρ= 0.2×10−3and Γ m= 0.7×10−3.
+If we can improve the sample purity, especially suppressing the residual conductivity and reduce the Mn
+antisite defects, then one can reach the higher sensitivity than the results in Fig. 4g of main text.
+4. Single photon detector efficiency: The single photon detector in the THz regime is rapidly
+developing. We estimate our sensitivity based on a THz single-photon detector with efficiency ∼95%
+and dark-count rate of 10−5Hz. This is an reasonable projection because the superconducting nanowire
+single-photon detector has achieved simultaneously such a low dark count and high efficiency in near
+infrared regime [20,21]. The same technology is progressing steadily to the longer wavelength [22] where
+our DAQ detector shall be able to search for the dark matter axions.
+III.3 Comparison between the meV DAQ detector and two other proposed
+future detectors
+There is no existing detector in the meV regime. The only two proposed future detectors (called BRASS
+[23] and BREAD [24]) are based on the same detection mechanism: under a Bfield, use a giant focusing
+mirror to focus all dark matter-induced photons (independent of their frequencies) and detect them with
+single-photon detectors. The earlier BRASS proposal considered a parabolic focusing mirror, which is
+difficult to integrate into a dilution refrigerator. The more recent BREAD proposal considered a conical
+focusing mirror that can be compatible with a dilution refrigerator.
+We list the pros and cons for our DAQ detector when comparing these two proposed detectors.
+Advantages:
+•Frequency resolution and tunablility: At a given magnetic field, the DAQ detector is only sensitive
+to a particular frequency given byq
+m2
+DAQ+C2B2. By varying the magnetic field, we can scan different
+frequencies. By contrast, the BRASS and BREAD focus all photons independent of their frequencies
+and detect them at once (if using the single photon detectors with better signal to noise). Therefore,
+their approach loses all information on the photon frequency, and thus on the axion mass, whereas the
+DAQ approach would immediately give the axion mass.
+•Economy: The BRASS and BREAD essentially collect all photons without resonant enhancement.
+Therefore, to get a large signal requires a large focusing mirror. To achieve sufficient sensitivity, the
+area of the mirror was estimated to be A= 10 m2. For BRASS, the parabolic mirror is incompatible
+with dil fridge. For BREAD, a A= 10 m2solenoidal focusing mirror requires a very large dil fridge
+with magnet to house it. This is estimated to cost about tens of millions USD. By contrast, the DAQ
+sample can easily fit in any commercially available dil fridge, which costs about 600K USD.
+Disadvantages:
+•Scanning time and sensitivity: The key disadvantage of the DAQ approach is the need to scan
+many frequencies. In our estimations in the main text, the measurement time on a single frequency
+isδτ= 50 minutes, while the total measurement time is τ= 3 years. By contrast, the BRASS and
+BREAD can detect a wide range of frequencies at the same time simultaneously, but with no frequency
+resolution and no boost factor. Our estimation found that the broadband approach is more sensitive
+than our proposed DAQ detector by a factor of around 5 (see detailed calculation below). Improving
+the loss factor of the DAQ material in future (increase β), and using larger/multiple samples to increase
+the area then the DAQ sensitivity can be comparable with the broadband approach.
+For the broadband approach, to cover a wide range requires multiple receivers. BRASS estimated
+N= 9 receivers in their proposed range [25]. For the same photon detector, the sensitivity in the
+broadband approach compared to the DAQ approach is:
+gres.
+gb.b.=1
+βr
+Ab.b.τ
+Ares.δτ. (S3)
+27
+
+============================================================
+PAGE 29
+============================================================
+
+Forβ≈100,δτ= 50 min and τ= 3 years /Nand equal areas the approaches are comparably sensitive,
+with βcompensating the differing measurement time. Using our area of Ares= 0.16 m2compared to
+BREAD [24] Ab.b.= 10 m2the broadband approach is more sensitive than our proposed DAQ detector
+by a factor of around 5. Note that this improved sensitivity is only achieved once the total campaign has
+been completed. The resonant DAQ detector achieves design sensitivity on each frequency in a shorter
+time.
+28
+
+============================================================
+PAGE 30
+============================================================
+
+IV. Theoretical derivation for the layer Hall effect
+As aPT-symmetric material, even-layer MnBi 2Te4hosts the so-called layer Hall effect [26], which mani-
+fests as an out-of-plane Ez-induced AHE. Here we show that the electric-field-induced AHE σxymeasures
+dD/dn. The anomalous Hall conductivity is given by
+σxy=e2
+2πhZ
+εnk≤µΩ(k)dk (S4)
+=e2
+2πhZ
+εnk≤µ[ΩT(k) + Ω B(k)]dk (S5)
+In the second line, we have used the fact that in MnBi 2Te4, the Berry curvature is dominated by the
+low-energy surface bands localized on the top and bottom surfaces. Because we have Ω T=−ΩB, the
+AHE conductivity vanishes in even-layer MnBi 2Te4. Upon applying the out-of-plane electric field Ez,
+Ezcreates an imbalance of chemical potential (charge density, ∆ n) between the top and bottom layers.
+Therefore, the AHE conductivity under finite Ezis given by
+σxy=e2
+2πhZ
+εnk≤µ[ΩT(k, n+ ∆n) + Ω B(k, n−∆n)]dk
+=e2
+2πhZ
+εnk≤µ[∂ΩT(k, n)
+∂n∆n+∂ΩB(k, n)
+∂n(−∆n)]dk
+=1
+2∂D
+∂n(∆n)
+The charge density imbalance ∆ nis induced by the out-of-plane electric field Ez, which is further
+related by the top and bottom gate voltages: ∆ n=ϵEz
+e=ϵ0
+2e(ϵSiO2VBG
+hSiO2−ϵhBNVTG
+hhBN). Here ϵSiO2andϵhBN
+are the dielectric constant of SiO 2and hBN. h SiO2and h hBNare the thickness of SiO 2and hBN. Therefore,
+σxy=1
+2∂D
+∂n(ϵ0
+2e(ϵSiO2VBG
+hSiO2−ϵhBNVTG
+hhBN))
+In other words, by measuring the Ez-induced σxyusing transport and knowing the value of the applied
+gate voltages VTGandVBG, we can obtain∂D
+∂nas shown in Extended Data Fig.4.
+29
+
+============================================================
+PAGE 31
+============================================================
+
+V. Tight binding model for MnBi 2Te4
+The tight binding model Hamiltonian used in order to describe the few layer MnBi 2Te4was inspired by
+the earlier works on Bi 2Te3, where the low energy bands are represented by the bonding ( P1+
+z) and the
+anti-bonding ( P2−
+z) states formed by Bi pzand Te pzorbitals [27]. The model is designed to describe four
+low energy bands (including the spin degrees of freedom) per quintuple layer near the Γ(0 ,0,0), point.
+The basis set is given by,
+|P1+
+z,↑⟩,|P2−
+z,↑⟩,|P1+
+z,↓⟩,|P2−
+z,↓⟩. (S6)
+The±sign denote the parity of the states, while the ↑,↓indicate the spins in the zdirection. Various
+symmetry aspects of this model is explained in detail in Ref [28] as well as in Ref [29]. The bulk
+Hamiltonian without any magnetization is expressed as,
+hTB= [e0−2t0(cosk1a+ cos k2a+ cos k3a)−2tz
+0cosk4az]Γ0
+−t1(2 sin k1a−sink2a−sink3a)Γ1−√
+3t1(sink2a−sink3a)Γ2
+−2tz
+3sink4azΓ3−2t4(sink1a+ sin k2a+ sin k3a)Γ4
++[e5−2t5(cosk1a+ cos k2a+ cos k3a)−2tz
+5cosk4az]Γ5(S7)
+The Γ matrices are given by, Γ 0=I4, Γ1=sxτx, Γ2=syτx, Γ3=szτx,Γ4=s0τy,Γ5=s0τz. Here
+thesandτrepresents the spin and the orbital degrees of freedom, respectively. The crystal momentum,
+k1=kx,k2=1
+2(−kx+√
+3ky),k3=1
+2(−kx−√
+3ky),k4=kz.
+Here,
+e0=C0+ 2C1/a2
+z+ 4C2/a2,
+e5=M0+ 2M1/a2
+z+ 4M2/a2,
+t0=2C2
+3a2,
+tz
+0=C1
+a2z,
+t1=−A2
+3a,
+tz
+3=−A1
+2az,
+t5=2M2
+3a2,
+tz
+5=M1
+a2z.(S8)
+The parameters used are listed below:
+C0=−0.0048 eV ,
+C1= 2.7232 eV ˚A2,
+C2= 0 eV ˚A2,
+M0=−0.1165 eV ,
+M1= 11.9048 eV ˚A2,
+M2= 9.4048 eV ˚A2,
+A1= 4.0535 eV ˚A,
+A2= 3.1964 eV ˚A,
+a= 4.334˚A,
+az=1
+3c=40.91
+3= 13.64˚A.(S9)
+30
+
+============================================================
+PAGE 32
+============================================================
+
+The few-layer thick MnBi 2Te4is modeled by discretizing the bulk Hamiltonian along the zdirection
+and coupling individual MnBi 2Te4layers with symmetry allowed interlayer hoppings. The AFM order is
+included by adding a layer-dependent exchange coupling to the non-magnetic Hamiltonian [30]. In the
+layer basis, the magnetic part of the Hamiltonian is expressed as,
+hAFM =mA.s⊗τ0 0
+0 mB.s⊗τ0
+(S10)
+Here, A and B represent the two layers of the AFM unit cell. Different spin configurations representative
+of the magnon modes are described by controlling the magnetization parameter of each layer, mi=miˆmi,
+where, the ˆ mi= (cos ϕisinθi,sinϕisinθi,cosθi) is the unit vector along the direction of the magnetic
+moment. The θandϕrepresent the angles of the spherical polar coordinates. In order to model the
+pristine MnBi 2Te4thinfilm with the out-of-plane AFM order, we have used mA=mB= 30 meV, and
+θA=π,θB= 0,ϕA=ϕB= 0.
+31
+
+============================================================
+PAGE 33
+============================================================
+
+VI. Additional discussion
+1. The polar Kerr rotation can arise from the normal Kerr proportional to Mzas well as the AFM Kerr
+proportional to Lz. By the symmetry analysis, one can show that the AFM Kerr can NOT have
+any linear-to- Econtribution, so the linear-to-E Kerr rotation can only arise from the normal Kerr
+proportional to Mz. The symmetry analysis is as follows: The AFM Kerr has distinct symmetry
+properties; it breaks PandTbut respects PT. As a result, suppose the AFM Kerr has a linear- E
+component: AFM Kerr = χE. We can perform PToperation to both sides of the equation. Under
+PT, AFM Kerr is invariant, but Ebecomes - E. Therefore χ= 0. In other words, the AFM Kerr effect
+cannot have any linear- Ecomponent (it can only have even powers of Eincluding E0). Therefore,
+the linear- Edependent Kerr purely comes from the E-induced magnetization, i.e., the magnetoelectric
+coupling.
+2. Our experiments focused on a relatively small doping range ±8×1012cm−2near charge neutrality;
+Within this small range near charge neutrality, our data demonstrate that the magnetic properties of
+MnBi 2Te4are roughly unchanged. On the other hand, if one accesses much larger doping level, it is
+entirely possible that JandKof MnBi 2Te4could be modified due to the p−dcoupling. Here, we
+provide some rough estimation according to previous works. In Ref. [31], the authors studied the Tcof
+Mn-doped Bi 2(Te/Se) 3as a function of n. It was shown (Fig. 2 of that paper) that Tcstarts to change
+asngoes beyond 1013cm−2). It should be noted that in Mn-doped Bi 2(Te/Se) 3, Mn ions are dilute
+and randomly distributed, so the Mn-Mn exchange coupling entirely relies on the RKKY interaction
+(p−dcoupling) through the itinerant electrons. By contrast, in MnBi 2Te4, the exchange coupling
+mainly arises from the Mn-Mn super-exchange. Therefore, it is reasonable to expect that, in order to
+for MnBi 2Te4to show a strong change of TN(therefore magnetism), one would need to vary nto an
+even larger value such as high 1013or 1013cm−2.
+3. Why the magnetoelectric (ME) coupling αis zero above TN, even though MnBi 2Te4in the nonmagnetic
+state is topologically nontrivial:
+First, as a starting point, this ( α= 0) can be argued by a general symmetry analysis. The magneto-
+electric (ME) coupling can be expressed by M=αE. We apply time-reversal operation to both sides
+of the equation, under which Mflips sign but Eremains invariant. Therefore, the only way for this
+to make sense is to have α= 0, i.e., the ME coupling αvanishes with time-reversal symmetry. This
+symmetry requirement is general, meaning that it is true for any kind of ME coupling (topological or
+trivial).
+Second, we discuss specifically for the case of strong TI with time-reversal symmetry. The strong
+TI has a nontrivial θ, but it only manifests as a quantized αif we gap out the Dirac surface states.
+This can be seen from the pioneering theory papers. For example, in the following two theoretical
+works [32,33], the authors showed the proposed setup to observe quantized α(see Fig. 15a of Ref. [32]
+and Fig. 2b of Ref. [33]). In both works, the strong TI is interfaced with ferromagnetic insulators so
+that the Dirac surface states are gapped. In this setup, the bulk (i.e., the interior) of the TI can still
+remain time-reversal symmetric, but the surface is gapped out by interfacial time-reversal breaking.
+The gapped Dirac surface states have a nonzero Hall conductivity, and the Hall current wraps around
+the sample, generating the quantized α. By contrast, if we have a stand-alone strong TI without the
+ferromagnetic insulators, then the strong TI has gapless Dirac surface states. The entire sample, which
+includes the bulk and the surfaces, have time-reversal symmetry. Then the αshould vanish because of
+the time-reversal symmetry of the entire sample, even though the system has nontrivial topology. This
+fact has also been explicitly stated by another early theory paper [34]: Quote: “Next we analyze the
+case of a strong Z2topological insulator having θ=π, or equivalently. We first consider a sample of
+such a system that has T symmetry conserved at its surfaces, as in Fig. 1(a). Again, since the entire
+sample is T-symmetric, its experimentally measurable magnetoelectric coupling tensor βclearly has to
+vanish”. (Their βis our αhere).
+32
+
+============================================================
+PAGE 34
+============================================================
+
+References
+[1] Bartram, F. M. et al. Real-time observation of magnetization and magnon dynamics in a two-dimensional
+topological antiferromagnet MnBi 2Te4.Sci. Bull. 68, 2734–2742 (2023).
+[2] Van Kampen, M. et al. All-optical probe of coherent spin waves. Phys. Rev. Lett. 88, 227201 (2002).
+[3] Qiu, J.-X. et al. Axion optical induction of antiferromagnetic order. Nat. Mater. 22, 583–590 (2023).
+[4] Bartram, F. M. et al. Ultrafast coherent interlayer phonon dynamics in atomically thin layers of
+MnBi 2Te4.npj Quantum Mater. 7, 84 (2022).
+[5] Krichevtsov, B. B., Pavlov, V. V., Pisarev, R. V. & Gridnev, V. N. Spontaneous non-reciprocal reflection
+of light from antiferromagnetic Cr 2O3.J. Phys. Condens. Matter 5, 8233 (1993).
+[6] Hendriks, F., Rojas-Lopez, R. R., Koopmans, B. & Guimar˜ aes, M. H. Electric control of optically-
+induced magnetization dynamics in a van der waals ferromagnetic semiconductor. Nature Commun. 15,
+1298 (2024).
+[7] Zhang, X.-X. et al. Gate-tunable spin waves in antiferromagnetic atomic bilayers. Nature Mater. 19,
+838–842 (2020).
+[8] Sch¨ utte-Engel, J. et al. Axion quasiparticles for axion dark matter detection. J. Cosmol. Astropart.
+Phys. 2021 , 066 (2021).
+[9] Tanabashi, M. et al. Review of particle physics. Phys. Rev. D 98(2018).
+[10] Bayrakci, S. et al. Lifetimes of antiferromagnetic magnons in two and three dimensions: Experiment,
+theory, and numerics. Phys. Rev. Lett. 111, 017204 (2013).
+[11] Zhao, Y.-F. et al. Even–odd layer-dependent anomalous hall effect in topological magnet MnBi 2Te4
+thin films. Nano Lett. 21, 7691–7698 (2021).
+[12] Lee, G.-H. et al. Graphene-based josephson junction microwave bolometer. Nature 586, 42–46 (2020).
+[13] Li, R., Wang, J., Qi, X.-L. & Zhang, S.-C. Dynamical axion field in topological magnetic insulators.
+Nature Phys. 6, 284–288 (2010).
+[14] Bai, Y. et al. Chern insulator phase realized in dual-gate-tuned MnBi 2Te4thin films grown by molecular
+beam epitaxy. arXiv preprint arXiv:2406.05676 (2024).
+[15] Novikov, S. V., Staddon, C. R., Whale, J., Kent, A. J. & Foxon, C. T. Growth of free-standing wurtzite
+algan by mbe using a highly efficient rf plasma source. Journal of Vacuum Science & Technology B 34
+(2016).
+[16] Zhang, J. et al. Large dynamical axion field in topological antiferromagnetic insulator Mn 2Bi2Te5.Chin.
+Phys. Lett. 37, 077304 (2020).
+[17] Cao, L. et al. Growth and characterization of the dynamical axion insulator candidate Mn 2Bi2Te5with
+intrinsic antiferromagnetism. Phy. Rev. B 104, 054421 (2021).
+[18] Qian, T. et al. Single crystal growth, chemical defects, magnetic and transport properties of antifer-
+romagnetic topological insulators (Ge 1−δ−xMnx)2Bi2Te5(x≤0.47,0.11≤δ≤0.12). arXiv preprint
+arXiv:2404.17764 (2024).
+[19] Basov, D., Fogler, M. & de Abajo, F. G. Polaritons in van der Waals materials. Science 354, aag1992
+(2016).
+[20] Marsili, F. et al. Detecting single infrared photons with 93% system efficiency. Nature Photon. 7,
+210–214 (2013).
+[21] Gambetta, J. M. et al. Investigating surface loss effects in superconducting transmon qubits. IEEE
+Trans. Appl. Supercond. 27, 1–5 (2016).
+33
+
+============================================================
+PAGE 35
+============================================================
+
+[22] Verma, V. et al. Single-photon detection in the mid-infrared up to 10 µm wavelength using tungsten
+silicide superconducting nanowire detectors. APL photonics 6(2021).
+[23] Horns, D. et al. Searching for WISPy cold dark matter with a dish antenna. J. Cosmol. and Astropart.
+Phys. 2013 , 016 (2013).
+[24] Liu, J. et al. Broadband solenoidal haloscope for terahertz axion detection. Phys. Rev. Lett. 128, 131801
+(2022).
+[25] Bajjali, F. et al. First results from BRASS-p broadband searches for hidden photon dark matter. JCAP
+08, 077 (2023). 2306.05934 .
+[26] Gao, A. et al. Layer Hall effect in a 2D topological axion antiferromagnet. Nature 595, 521–525 (2021).
+[27] Zhang, H. et al. Topological insulators in Bi 2Se3, Bi2Te3and Sb 2Te3with a single dirac cone on the
+surface. Nature Phys. 5, 438–442 (2009).
+[28] Ahn, J., Xu, S.-Y. & Vishwanath, A. Theory of optical axion electrodynamics and application to the
+Kerr effect in topological antiferromagnets. Nature Commun. 13, 7615 (2022).
+[29] Zhang, D. et al. Topological axion states in the magnetic insulator MnBi 2Te4with the quantized
+magnetoelectric effect. Phys. Rev. Lett. 122, 206401 (2019).
+[30] Zhang, R.-X., Wu, F. & Das Sarma, S. M¨ obius insulator and higher-order topology in MnBi 2nTe3n+1.
+Phys. Rev. Lett. 124, 136407 (2020).
+[31] Checkelsky, J. G., Ye, J., Onose, Y., Iwasa, Y. & Tokura, Y. Dirac-fermion-mediated ferromagnetism
+in a topological insulator. Nature Phys. 8, 729–733 (2012).
+[32] Qi, X.-L., Hughes, T. L. & Zhang, S.-C. Topological field theory of time-reversal invariant insulators.
+Phys. Rev. B 78, 195424 (2008).
+[33] Wang, J., Lian, B., Qi, X.-L. & Zhang, S.-C. Quantized topological magnetoelectric effect of the zero-
+plateau quantum anomalous Hall state. Phys. Rev. B 92, 081107 (2015).
+[34] Coh, S., Vanderbilt, D., Malashevich, A. & Souza, I. Chern-simons orbital magnetoelectric coupling in
+generic insulators. Phys. Rev. B 83, 085108 (2011).
+34
